@@ -1,14 +1,3 @@
-# penerapan algoritma Knuth-Morris-Pratt dalam pendeteksi plagiarisme.. 
-# terjemahan dari kode Java karavind89
-# link: https://github.com/karavind89/Plagirism-Checker-using-KMP-Algorithm
-
-# step 1: input pattern file and source file 
-# step 2: split all sentences in the pattern file with period as the delimiter
-# step 3: store the senteces into an array
-# step 4: for all sentences in the array, check if they can be found in the source file 
-# step 5: if found, increment the counter
-# step 6: calculate the percentage of sentences plagiarized (% plagiarized = # plagiarized text / # sentences in the pattern * 100)
-
 # langkah 1: masukan file yang akan dibandingkan. ada pattern, file yang akan diamati dan ada file text, file yang akan dibandingkan
 # langkah 2: pecah/split semua kalimat di file pattern dengan tanda titik sebagai pemisah
 # langkah 3: simpan semua kalimat yang dipecah dalam suatu array
